@@ -1,0 +1,14 @@
+КАК СОБРАТЬ APK БЕЗ ANDROID STUDIO И БЕЗ НАГРУЗКИ НА НОУТБУК
+
+1. Создайте бесплатный репозиторий на GitHub.
+2. Загрузите ВЕСЬ архив проекта в корень репозитория.
+3. Откройте вкладку Actions.
+4. Выберите "Build ClearZone APK".
+5. Нажмите "Run workflow".
+6. После завершения откройте выполненную сборку.
+7. Внизу страницы скачайте артефакт "ClearZone-Android-APK".
+8. Внутри будет app-debug.apk, готовый для установки на Android.
+
+Также серверный файл нужно загрузить на сайт:
+server/public/api/app_notifications.php
+-> /public/api/app_notifications.php
